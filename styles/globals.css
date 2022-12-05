@@ -1,0 +1,41 @@
+/* GOOGLE FONT */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap");
+
+/* CUSTOM CSS */
+@import "./compositions/index.css";
+@import "./utilities/index.css";
+
+/* TAILWIND CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: 240 38% 20%;
+    --color-secondary: 240 18% 77%;
+    --color-white: 0 0% 100%;
+  }
+}
+
+/* RESET */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* GENERAL */
+body {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: white;
+  color: hsl(var(--color-primary) / 100);
+}
+
+quote {
+  font-weight: 300;
+}
