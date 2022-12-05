@@ -10,7 +10,7 @@ export default function Home() {
         <meta name="description" content="Coding Bootcamp" />
       </Head>
 
-      <main className="z-20 p-10 lg:px-36">
+      <main className="z-20 p-10 md:px-24 lg:px-36">
         <Slider />
       </main>
 
