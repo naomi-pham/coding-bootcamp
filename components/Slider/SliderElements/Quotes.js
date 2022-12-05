@@ -9,7 +9,7 @@ const Quotes = ({slides, slidePosition}) => {
                     key={slide.id}
                     className={slidePosition === index ? "block" : "hidden"}
                 >
-                    <q className="font-light text-xl sm:text-2xl sm:leading-relaxed lg:text-3xl lg:leading-normal">
+                    <q className="font-extralight text-xl sm:text-2xl sm:leading-relaxed lg:text-3xl lg:leading-normal">
                         {slide.quote}
                     </q>
                     <figureCaption className="block font-bold text-lg lg:text-xl mt-8">
